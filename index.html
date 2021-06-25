@@ -3,23 +3,53 @@
         <title>
            El Google
         </title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <style>
-            #google-logo {
-                position:relative;
-                top: 50px;
-                left: 500px;
+            body {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            }
+            .search-bar {
+                grid-row-start: 2;
+                grid-column-start: 3;
+            }
+            img {
+               height: 120px;
+                width: auto;
+                margin-bottom: 10px;
+                padding: auto;
+            }
+            img:hover {
+                height: 130px;
+                width: auto;
+            }
+            #search {
+                grid-row: 2/4;
+                grid-column: 1/5;
+                height: 100px;
+                width: 100%;
+            }
+            .buttons {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(0);
             }
         </style>
     </head>
     <body>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-         <img id="google-logo" src="googlelogo_color_272x92dp.png" alt="Google Logo">
-        </a>
-        <form>
-            <input type="text" name="search" id="search" placeholder="Enter Search Term or URL">
-            <br> 
-            <button type="button" name="search" id="search" class="search-button"></button>
-            <button type="button" name="feeling-lucky" id="feeling-lucky" class="search-button"></button>
-        </form>
+        <div class="search-bar">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <img id="google-logo" src="googlelogo_color_272x92dp.png" alt="Google Logo">
+              </a>
+             <form>
+                <input type="text" name="search" id="search" placeholder="Enter search term or URL">
+                <div class="buttons">
+                 <button type="button" name="search" id="search" class="search-button"></button>
+                 <button type="button" name="feeling-lucky" id="feeling-lucky" class="search-button"></button>
+                </div>
+             </form>
+        </div>
+          
     </body>
 </html>
