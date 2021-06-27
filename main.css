@@ -9,14 +9,16 @@ body {
     justify-content: center;
     align-items: center;
 }
-form {
+#search {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
-.buttons {
+#search-button #feeling-lucky {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50px;
 }
