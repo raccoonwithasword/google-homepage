@@ -1,4 +1,4 @@
-body {
+.stuff-idk {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,8 +86,33 @@ padding: 20px;
 border-style: solid;
 border-color: transparent;
 }
+/*
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 200px;
+    background-color: #f0f0f0;
+
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    height: 22.5%;
+    width: 25%;
+    
 }
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+li a:hover {
+    background-color: #616060;
+    color: rgb(250, 250, 250);
+}
+*/
