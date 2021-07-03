@@ -61,19 +61,22 @@ body {
     border-color: transparent;
     border-radius: 10px;
     height: 40px;
-    align-self: inherit;
-    align-items: flex-start;
-    justify-content: space-around;
+    /*
+    align-self: center;
+    */
+    align-items: center;
+    justify-content: space-evenly;
 }
 button {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    /*
     width: 120px;
     height: 30px;
-    align-content: center;
     background-color: #aaaaaa;
+    */
 }
 button:hover {
     background-color: #6b6a6a;
@@ -82,4 +85,9 @@ button:hover {
 padding: 20px;
 border-style: solid;
 border-color: transparent;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
