@@ -1,9 +1,11 @@
-.stuff-idk {
+/*
+.home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+*/
 .google-logo {
     display: flex;
     margin: auto;
@@ -24,10 +26,14 @@
     margin: auto;
     padding-top: 50px;
 }
-#google-logo:hover {
-    width:120%;
-    height:120%;
+.google-logo:hover {
     background-color: #bb7441;
+    width: 20%;
+}
+#google-logo:hover {
+    height: auto;
+    width: 105%;
+    justify-content: center;
 }
 #search {
     display: flex;
@@ -72,6 +78,8 @@ button {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    border: 1px thin;
+    border-radius: 10px;
     /*
     width: 120px;
     height: 30px;
@@ -86,6 +94,7 @@ padding: 20px;
 border-style: solid;
 border-color: transparent;
 }
+
 /*
 ul {
     list-style-type: none;
