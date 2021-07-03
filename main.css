@@ -26,14 +26,10 @@
     margin: auto;
     padding-top: 50px;
 }
-.google-logo:hover {
-    background-color: #bb7441;
-    width: 20%;
-}
 #google-logo:hover {
     height: auto;
     width: 105%;
-    justify-content: center;
+    justify-self: center;
 }
 #search {
     display: flex;
