@@ -157,10 +157,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 5px solid black;
-    border-radius: 5px;
+    border: 5px solid #f0f0f0;
+    border-radius: 0;
     margin-top: 170px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
     padding: 25px;
+    background-color: #f0f0f0;
 }
 
 .footer-list {
@@ -175,6 +179,4 @@ footer {
     color: black;
     padding: 10px;
     font-size: 14px;
-    border: 1px solid black;
-
 }
