@@ -153,13 +153,21 @@ li a:hover {
     width: 28px;
     height: 28px;
 }
-/*
-.footer {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    font-size: 14px;
+footer {
+    display: flex;
+    box-sizing: unset;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px solid #f0f0f0;
+    border-radius: 0;
+    margin-top: 170px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 25px;
+    background-color: #f0f0f0;
 }
+
 .footer-list {
     list-style-type: none;
     margin: 0;
@@ -167,9 +175,15 @@ li a:hover {
     display: flex;
     flex-direction: row;
 }
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.footer {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px transparent;
 }
-*/
+.footer:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #f1f1f0;
+}
